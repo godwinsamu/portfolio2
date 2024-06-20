@@ -60,6 +60,7 @@ transform-origin:center;
 /* responsive navbar */
 @media (max-width:600px){
   body{
+      
     overflow-x:hidden;
   }
 .navlinks{
@@ -312,6 +313,10 @@ display:inline-block;
 }
 /* about media query */
 @media(max-width:600px){
+  body{
+      
+    overflow-x:hidden;
+  }
   .godwin2img{
     height:20rem;
     margin-top:6rem;
@@ -448,6 +453,10 @@ padding-right:1rem;
 }
 /* project media query */
 @media(max-width:600px){
+  body{
+      
+    overflow-x:hidden;
+  }
 .projects{
   flex-direction: column;
   width:65rem;
@@ -850,6 +859,10 @@ padding-right:1rem;
 }
 /* contact media query */
 @media(max-width:600px){
+  body{
+      
+    overflow-x:hidden;
+  }
   .cont{
     margin-top:10rem;
     margin-left:7rem;
