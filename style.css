@@ -60,7 +60,8 @@ transform-origin:center;
 /* responsive navbar */
 @media (max-width:600px){
   body{
-    max-width:100vw;
+    overflow-x:hidden;
+  }
 .navlinks{
  flex-direction: column;
   margin-left:10rem;
