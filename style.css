@@ -7,6 +7,7 @@ scroll-behavior: smooth;
 }
 body{
   height:100vh;
+  overflow-x:hidden;
   background:#000;
 }
 /* navbar */
@@ -58,6 +59,8 @@ transform-origin:center;
 }
 /* responsive navbar */
 @media (max-width:600px){
+  body{
+    max-width:100vw;
 .navlinks{
  flex-direction: column;
   margin-left:10rem;
